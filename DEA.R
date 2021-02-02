@@ -6,7 +6,7 @@ library("ggplot2")
 library("SummarizedExperiment") 
 
 # Import data on R
-# coldata <- data.frame (tissue = tissuedata, individual = individualname, replica = replicanumber, seqdate = sequencingDate, batch = batchnumber, lab = laboratoryName)
+# coldata <- data.frame (tissue = tissuedata, runaccesion = runaccesion, individual = individualname, age = age, replica = replicanumber, libraryprepDate = libraryprepDate, lab = laboratoryName, seqdate = sequencingDate, laboratory = laboratoryName, batch = batchnumber)
 
 dir <- '/home/agalab/Scrivania/RNA_seq_trial'
 coldata <- read.csv(file.path(dir, "coldata.csv"))
