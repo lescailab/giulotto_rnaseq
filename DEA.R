@@ -18,7 +18,7 @@ coldata
 # Tximeta doesn not contain the horse so we need to manually import it
 indexDir <- file.path(dir, "EqIndex") # my salmon index
 fastaFTP <- c('ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/863/925/GCF_002863925.1_EquCab3.0/GCF_002863925.1_EquCab3.0_rna.fna.gz')
-gtfPath <- file.path(dir,"GCF_002863925.1_EquCab3.0_genomic.gff") # only the original one is accepted
+gtfPath <- file.path(dir,"GCF_002863925.1_EquCab3.0_genomic.gff") 
 
 
 tmp <- tempdir()
